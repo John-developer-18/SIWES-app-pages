@@ -1,0 +1,228 @@
+.dark img{
+    cursor: pointer;
+}
+section{
+    display: flex;
+    font-family: 'open sans';
+    justify-content: space-between;
+    padding:0 60px;
+  
+}
+section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-family: 'open sans';
+    font-size: 2.5em;
+    font-weight: 600;
+    flex-basis: 58%;
+    padding-top: 60px;  
+    color: #19417E;
+}
+section div p{
+    font-size: 20px;
+    margin-top:25px;
+}
+section div button{
+    margin-top:25px;
+    width:150px;
+    height:50px;
+    border:2px solid #19417E;
+    border-radius:5px;
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #19417E;
+    transition: 0.5s ease;
+}
+
+section div button:hover{
+    background-color:white;
+    color: #19417E;
+}
+section img{
+    margin-top: -85px;
+    height: 690px;
+    width: 526px;
+    padding: 0;
+    margin-left:25px; 
+}
+.ham{
+    display: none;
+}
+.cover{
+    display: none;
+}
+.cover span, .cover ul{
+    display: none;
+}
+.fa-toggle-off, .fa-toggle-on{
+    margin-top: 0;
+    color: #19417E;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width:1176px){
+.header-div img{
+    height: 90px;
+    width: 90px;
+    margin-top: 3px;
+}
+.dark{
+    margin-top: 34px;
+    margin-right: 10px;
+}
+.cover ul{
+    font-family: 'open sans';
+    text-align: center;
+    line-height: 80px;
+    display: block;
+}
+.cover ul a{
+    color: white;
+    text-decoration: none;
+    font-size:1.5em;
+}
+.cover ul li{
+    list-style:none;
+}
+    .cover{
+        position: absolute;
+        height: 550px;
+        width:100%;
+        background-color:#19417E;
+        z-index: 1000;
+    }
+    .fa-times{
+        color:white;
+        cursor:pointer;
+        
+    }
+    .cover span{
+        font-size: 35px;
+        display: block;
+        height:100px;
+        text-align: right;
+        padding: 20px;
+        margin-bottom:65px;
+        padding-right: 25px;
+        border-bottom: 2px solid white;
+    }
+     section img{
+         display: none;
+     }
+     section{
+        text-align: center;
+        display: block;
+        padding:0 65px;
+     }
+     section h1{
+        line-height:90px;
+     }
+     section div h1{
+        font-size: 1.5em;
+        margin-top: 5px;
+     }
+     section div{
+         padding-top: 20px;
+     }
+     .header-div2, header div ul{
+         display: none;
+     }
+     header{
+         align-items: flex-start;
+     }
+     .ham{
+         display: inline-block;
+         padding-top: 4px;
+         margin-right: 10px !important;
+        
+     }
+     .fa-bars{
+         margin-right:17px;
+         font-size: 30px;
+         margin-top: 28px;
+         color: #19417E;
+         cursor: pointer;
+         font-weight: 100 !important;
+     }
+  
+     header img{
+         margin-top: -13px;
+         padding: 0;
+     }
+     .fa-toggle-off, .fa-toggle-on{
+         margin-top: 0;
+         color: #19417E;
+         font-size: 30px;
+     }
+     .fa-toggle-on{
+         display: none;
+     }
+     .header-div{
+         margin-left: 5px;
+     }
+     body{
+         overflow:visible;
+     }
+     section div p{
+         margin-bottom: 30px;
+     }
+}
+
+
+
+@media screen and (max-width:992px){
+  
+    section{
+        text-align: center;
+        padding:0 30px;
+    }
+    section div h1{
+        line-height: 90px;
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width:778px){
+    section div{
+        font-size: 2.1em;
+    }
+    section{
+        text-align: center;
+        padding:0 28px;
+    }
+    section div h1{
+        line-height:75px;
+        font-size:1.3em ;
+    }
+    section div p{
+        font-weight: 500;
+
+    }
+}
+
+@media screen and (max-width:414px){
+    section div{
+        font-size: 1.7em;
+    }
+    section{
+        text-align: center;
+        padding:0 22px;
+    }
+    section div h1{
+        line-height: 75px;
+    }
+    section div p{
+        font-size:16px ;
+        font-weight: 600;
+
+    }
+    .dark{
+        margin-right: 10px;
+        /* background-color: aqua; */
+        padding-right: 30px;
+    }
+}
+

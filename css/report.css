@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+:root{
+    --blue: #19417E;
+    --gray: #ececec;
+}
+
+.nName{
+    font-size: 15px;
+    margin: 0;
+    font-weight: 600;
+}
+.nCourse{
+    font-size: 13px;
+    margin: 0;
+}
+
+.nBar{
+    padding: 8px 0 ;
+    background-color: var(--blue);
+    color: var(--gray);
+}
+
+.col-auto p{
+    font-size: 12px;
+    margin: 0;
+}
+
+.cTab{
+    padding: 25px 0 ;
+    background-color: white;
+    color: rgb(34, 34, 34);
+    height: auto;
+}
+
+
+.cTab h1{
+    font-weight: 700;
+}
+
+.submit{
+    background-color: var(--blue) !important;
+    margin-left: 10px;
+}

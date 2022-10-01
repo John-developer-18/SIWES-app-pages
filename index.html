@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babcock Siwes-Home</title>
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/header-style.css">
+    <link rel="stylesheet" href="css/home-style.css">
+    <!-- <link rel="stylesheet" href="css/scrollbar.css"> -->
+</head>
+<body>
+  <!--This is the beginning of the cover section-->
+  <div class="cover">
+    <span><i onclick="remove()" class="fa fa-times"></i></span>
+    <ul>
+      <li class="act"><a class="grow" href="index.html">Home</a></li>
+      <li><a class="grow" href="about.html">About</a></li>
+      <li><a class="grow" href="login.html">Login</a></li>
+    </ul>
+  </div>
+  <!--The end of the cover section-->
+
+  <!--This is the beginnign of the head section-->
+  <header>
+    <!--left section of the header-->
+    <div class="header-div">
+      <a href="index.html"><img src="assets/bucc.png" alt="bucc logo"></a>
+     
+    </div> 
+
+    <!--The dark Theme Icon-->
+    <div class="dark"> 
+      <i id='myBtn' onclick="darkmode()"  class="fa fa-toggle-off"></i>
+      <i onclick="darkmode()" class="fa fa-toggle-on"></i>
+    </div> 
+    <!--The end of the dark theme-->
+
+    <div class="header-div2">
+       <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register.html">Register</a></li> 
+      </ul>
+      <a href="login.html"><button>Login.</button></a>
+    </div>
+    <div class="ham">
+      <i onclick="show()" class=" fa fas fa-bars"></i>
+    </div>
+  
+  </header>
+  <!--This is the end of the end of the head section-->
+
+
+  <!--Main section-->
+  <section>
+    <div>
+      <h1>Don’t Sleep. Wake up. Build. Rebuild. Repeat. Sign your log-book.</h1>
+      <p><em>The Future Begins Now. Proud to Belong......</em></p>
+      <span><a href="register.html"><button>Register Here</button></a></span>
+    </div>
+    <img src="assets/robot2.png">
+  </section>
+  <!--This is the end of the main section-->
+
+</body>
+ <script src="js/script.js"></script>
+</html>

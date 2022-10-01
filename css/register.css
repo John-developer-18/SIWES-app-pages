@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --blue: #19417E;
+    --ash: rgba(108, 117, 125,0.1);
+    --textColor: rgb(145, 145, 145);
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+    background-color: white;
+
+}
+
+.login-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 100%;
+    width: 950px;
+
+ 
+}
+
+
+.l-area{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: var(--blue);
+
+    height: 625px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.l-area p{
+    font-style: italic;
+}
+
+.r-area{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: var(--ash);
+    padding: 40px !important;
+    color: black;
+}
+
+.r-area h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.r-area p{
+    color:rgb(145, 145, 145);
+    font-size: 13px;
+}
+
+form label{
+    color:rgb(145, 145, 145);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+input[type=text]{
+    border: none;
+    background-color: transparent;
+    color: rgb(145, 145, 145);
+    line-height: 45px;
+    padding-top: 3px ;
+    font-size: 13px;
+    width: 100%;
+    border-bottom: 1px solid rgb(143, 142, 142);
+}
+
+input[type=text]:focus{
+    outline: none;
+}
+
+input[type=password]{
+    border: none;
+    color: rgb(145, 145, 145);
+    background-color: transparent;
+    line-height: 45px;
+    padding-top: 6px ;
+    font-size: 13px;
+    width: 100%;
+    border-bottom: 1px solid rgb(143, 142, 142);
+}
+
+input[type=password]:focus{
+    outline: none;
+}
+
+.btn-grad{
+    background-color: var(--blue);
+    padding: 13px 0;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    
+}
+
+.forgot_link{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .l-area{
+        height: 300px;
+        width: 100%;
+        padding: 40px ;
+    } 
+    
+.l-area p{
+    font-style: italic;
+    font-size: 60px;
+}
+    
+    .r-area {
+        width: 100%;
+    }
+
+    .login-wrapper{
+        position: absolute;
+        width: 100%;
+        transform: translate(0,0);
+        top: 0;
+        left: 0;
+     
+    }
+
+    body{
+        background-color: var(--ash) !important;
+       
+    }
+
+    
+input[type=text]{
+    
+    padding-top: 3px ;
+    margin-bottom: 10px;
+    
+}
+}

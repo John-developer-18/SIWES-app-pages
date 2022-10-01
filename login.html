@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    
+</head>
+<body>
+    
+    <section class="login-wrapper">
+        <div class="row">
+            <div class="col-md-6 l-area">
+                <p>SIWES</p>
+            </div>
+            <div class="col-md-6 r-area">
+                <h2 class="h2text">Login</h2>
+                <p class="mb-4">Sign into Student account</p>
+
+                <form action="" class="c-form">
+                    <label for="matric" class="w-100 ">Matric Number</label>
+                    <input type="text" placeholder="Enter Matric Number">
+
+                    <label for="password" class="w-100 mt-4">Password</label>
+                    <input id="password" type="password" placeholder="Password">
+
+                    <input type="checkbox" class="mt-4" name="showPassword" id="showPassword">
+                    <label for="" class="">Show Password</label>
+                    <br>
+                    <div><a href="register.html" class="forgot_link d-flex justify-content-end">Register here</a></div>
+                    <div class="mt-4">
+                        <button class="btn-grad w-50 text-white">Login</button>
+                        
+                    </div>
+                    
+                
+                    <!-- <div class="mt-5 d-flex justify-content-center">
+                        <a href="" class="link-info text-decoration-none">Register</a>
+                    </div> -->
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <script src="./js/bootstrap.js"></script>
+    <script>
+        const showPassword = document.getElementById('showPassword');
+        const password = document.getElementById('password')
+
+        showPassword.addEventListener('click', function(){
+            if (password.type === "password") {
+                password.type = "text";
+            } else {
+                password.type = "password";
+            }
+        })
+    </script>
+</body>
+</html>

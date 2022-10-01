@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--body-color);
+}
+
+li{
+    list-style: none;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    transition: 0.6s;
+}
+.sticky{
+    background-color: var(--head-color);
+    box-shadow: 5px 3px 13px var(--shadow);
+}
+header span{
+    font-size: 30px;
+    margin-right: 70px;
+    color:#19417E ;
+    cursor: pointer;
+}
+ /* header .fa-moon-o::after{
+    content:"";
+    width:30%;
+    height: 3px;
+    background-color: #19417E;
+    position: absolute;
+    bottom:-4px;
+    left:1px;
+} */
+header span{
+    position: relative;
+}
+header a{
+    font-size: 18px;
+    font-family: 'open sans';
+    color: #19417E;
+    font-weight: 500;
+    transition: 1s ease;
+    z-index: 999;
+}
+header li{
+    transition: 1s ease;
+}
+.header-div{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.header-div li{
+   display: inline-block;
+   margin-right: 50px;
+}
+header li .active::after,
+header li a:hover::after
+{
+    content:"";
+    width:50%;
+    height:2px;
+    background-color: #19417E;
+    position: absolute;
+    bottom:-4px;
+    left:9px;
+}
+.header-div img{
+    height: 100px;
+    width:100px;
+    margin-right: 30px;
+}
+.header-div2{
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+.header-div2 li{
+    display: inline-block;
+    margin-left: 90px;
+}
+.header-div2 button{
+    margin-left:90px;
+    height: 35px;
+    width:70px;
+    background-color:#19417E;
+    border: 2px solid #19417E;
+    border-radius: 5px;
+    color:#fff;
+    font-family: 'open sans';
+    font-size: 16px;
+    transition: 0.5s ease;
+    font-weight: 500;
+}
+
+.header-div2 button:hover{
+    background-color: white;
+    color:#19417E;
+}
+.grow:hover{
+    font-size:30px;
+}
+.grow:hover{
+    color:rgb(25, 175, 221);
+}
+button{
+    cursor: pointer;
+}
+
+
+
+

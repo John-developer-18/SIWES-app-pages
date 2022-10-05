@@ -7,16 +7,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/register.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.css">
     
 </head>
 <body>
     
     <section class="login-wrapper">
         <div class="row">
-            <div class="col-md-4 l-area">
+            <!-- <div class="col-md-4 l-area">
                 <p class="">SIWES</p>
-            </div>
-            <div class="col-md-8 r-area">
+            </div> -->
+            <div class="col-md-12 r-area">
                 <h2 class="h2text">Register</h2>
                 <p class="mb-3">Create an account</p>
 
@@ -74,17 +76,22 @@
                         
 
                     </div>
-
-                    <button class="btn-grad w-50 mt-5 text-white">Register</button>
-                
-                    <!-- <div class="mt-5 d-flex justify-content-center">
-                        <a href="" class="link-info text-decoration-none">Register</a>
-                    </div> -->
+                     
+                    <div class="row mt-5">
+                        <div class="col-2">
+                          <button class="text-white but">Register</button>
+                        </div>
+                      <div class="col-10 dar"> 
+                        <i id='myBtn' onclick="darkmode()"  class="fa fa-toggle-off"></i>
+                        <i onclick="darkmode()" class="fa fa-toggle-on"></i>
+                      </div> 
+                    </div>
                 </form>
             </div>
         </div>
     </section>
     
     <script src="./js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

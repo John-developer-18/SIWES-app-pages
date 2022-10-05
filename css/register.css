@@ -1,16 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
-
+*{
+    box-sizing: border-box !important;
+}
 :root{
     --blue: #19417E;
     --ash: rgba(108, 117, 125,0.1);
     --textColor: rgb(145, 145, 145);
 }
-
-
+ .fa-toggle-off, .fa-toggle-on{
+    margin-top: 0;
+    color: var(--form-comp-color);
+    font-size: 35px !important;
+}
+.fa-toggle-on{
+    display: none;
+}
 body{
-    font-family: 'Poppins', sans-serif !important;
-    background-color: white;
+    font-family: 'open sans' !important;
+    background-color: var(--body-color) !important;
 
+}
+.h2text{
+    color: var(--form-comp-color);
+    margin-bottom:15px;
 }
 
 .login-wrapper{
@@ -43,13 +55,16 @@ body{
 .l-area p{
     font-style: italic;
 }
-
+.dar{
+    text-align: right;
+}
 .r-area{
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-    background-color: var(--ash);
+    /* border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px; */
+    background-color: var(--form-color);
     padding: 40px !important;
     color: black;
+    /* border-top:7px solid var(--blue) ; */
 }
 
 .r-area h2{
@@ -126,6 +141,7 @@ input[type=password]:focus{
     
     .r-area {
         width: 100%;
+       
     }
 
     .login-wrapper{
@@ -149,4 +165,12 @@ input[type=text]{
     margin-bottom: 10px;
     
 }
+}
+.but{
+   border: none;
+   background-color: var(--form-comp-color);
+   padding: 8px;
+   /* padding-right: 5px !important; */
+   border-radius: 2px;
+   margin-left: 10px;
 }

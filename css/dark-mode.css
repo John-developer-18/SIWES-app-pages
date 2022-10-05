@@ -2,6 +2,8 @@
   --body-color:black;
   --head-color:black;
   --shadow:black;
+  --form-color:rgba(25, 26, 26, 0.925);
+  --form-comp-color:#0d1d36;
   }
 
   :root{
@@ -9,4 +11,6 @@
     --text-color:#19417e;
     --head-color:rgb(239, 241, 241);
     --shadow:#888888;
+    --form-color:rgba(108, 117, 125,0.1);
+    --form-comp-color:#19417e;
   }

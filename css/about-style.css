@@ -98,7 +98,7 @@ ul i{
     .cover ul{
         font-family: 'open sans';
         text-align: center;
-        line-height: 80px;
+        line-height: 70px;
         display: block;
     }
     .cover ul a{
@@ -108,14 +108,19 @@ ul i{
     }
     .cover ul li{
         list-style:none;
+        /* border-bottom:1px solid white ;    */
+    }
+    .cover ul li{   
+        background-color:#0d1d36c5; 
     }
         .cover{
-            position: absolute;
-            height: 550px;
+            position: fixed;
+            height: 100vh;
             width:100%;
-            background-color:#19417E;
+            background-color:#0d1d36;
             z-index: 1000;
         }
+    
         .fa-times{
             color: white;
             cursor:pointer;
@@ -123,12 +128,12 @@ ul i{
         .cover span{
             font-size: 35px;
             display: block;
-            height:100px;
+            height:70px;
             text-align: right;
             padding: 20px;
-            margin-bottom:65px;
+            margin-bottom:100px;
             padding-right: 25px;
-            border-bottom: 2px solid white;
+            /* border-bottom: 1px solid white; */
         }
 
     .header-div2, header div ul{

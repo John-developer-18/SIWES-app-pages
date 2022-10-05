@@ -22,7 +22,7 @@ header{
     align-items: center;
     justify-content: space-between;
     z-index: 10;
-    transition: 0.6s;
+    /* transition: 0.6s; */
 }
 .sticky{
     background-color: var(--head-color);
@@ -109,11 +109,12 @@ header li a:hover::after
     background-color: white;
     color:#19417E;
 }
-.grow:hover{
+/* .grow:hover{
     font-size:30px;
 }
+*/
 .grow:hover{
-    color:rgb(25, 175, 221);
+    color:#19417E;
 }
 button{
     cursor: pointer;
